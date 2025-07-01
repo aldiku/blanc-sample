@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blanc Pastry - Baking Studio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+  <style>
+    
+    .invoice-box {
+      background: #f8ead5;
+      padding: 30px;
+      border-radius: 8px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+    }
+    .logo span {
+      color: #205295;
+    }
+    .signature {
+      font-family: 'Brush Script MT', cursive;
+      font-size: 24px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container text-white">
+      <a class="fw-bold" href="/">
+        <img src="/assets/images/logo-60.png" alt="logo" height="30">
+      </a>
+
+      <!-- Mobile menu toggler -->
+      <button class="nav-toggler ms-auto text-white" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#mobileMenu">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Desktop Menu -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-white gap-3">
+          <li class="nav-item text-white"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item text-white"><a class="nav-link" href="/#classes">Classes</a></li>
+          <li class="nav-item text-white"><a class="nav-link" href="/#membership">Membership</a></li>
+          <li class="nav-item text-white"><a class="nav-link" href="/#menu">Menu</a></li>
+          <li class="nav-item text-white"><a class="nav-link" href="/#contact-us">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="offcanvas offcanvas-end bg-primary" tabindex="-1" id="mobileMenu">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title">BLANC PASTRY</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body p-0">
+      <ul class="nav flex-column">
+        <li class="nav-item text-white menu-mbl">
+          <a class="nav-link" href="/">
+            <i class="fas fa-file-contract"></i>Home
+          </a>
+        </li>
+        <li class="nav-item text-white menu-mbl">
+          <a class="nav-link" href="#classes">
+            <i class="fas fa-cookie"></i>Classes
+          </a>
+        </li>
+        <li class="nav-item text-white menu-mbl">
+          <a class="nav-link" href="#membership">
+            <i class="fas fa-utensils"></i>Membership
+          </a>
+        </li>
+        <li class="nav-item text-white menu-mbl">
+          <a class="nav-link fw-bold" href="#menu">
+            <i class="fas fa-graduation-cap"></i>Menu
+          </a>
+        </li>
+        <li class="nav-item text-white menu-mbl">
+          <a class="nav-link" href="#contact-us">
+            <i class="fas fa-info-circle"></i>Contact Us
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="hero min-h-100vh bg-gray" style="position: relative;">
+    <div class="container py-5">
+      <div class="invoice-box mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <div>
+            <img src="/assets/images/logo-colour.png" alt="logo" height="100">
+          </div>
+          <div class="text-end">
+            <h2 class="mb-0">INVOICE</h2>
+            <small>Invoice No 01/VI/28/2025</small>
+          </div>
+        </div>
+      
+        <div class="mb-4">
+          <p><strong>INVOICE TO:</strong><br>PT. Asahimas Chemical (PT. ASC)</p>
+        </div>
+      
+        <div class="card border-0 p-4">
+          <table class="table table-bordered p-4">
+            <thead class="table-light">
+              <tr>
+                <th style="width: 5%;">NO</th>
+                <th>PRODUCT DESCRIPTION</th>
+                <th class="text-end" style="width: 20%;">PRICE TOTAL</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>
+                  <strong>Pelatihan Vokasi</strong>
+                  <ul class="mb-0">
+                    <li>Alat bahan baking sudah tersedia.</li>
+                    <li>Apron dan tripod sudah dipinjamkan.</li>
+                    <li>Include lunch premium box & snack box.</li>
+                    <li>Sudah termasuk Recipe.</li>
+                    <li>Hasil baking dibawa pulang.</li>
+                    <li>Termasuk konsultasi gratis selesai kelas.</li>
+                    <li>Include Certificate.</li>
+                    <li>Akomodasi.</li>
+                  </ul>
+                </td>
+                <td class="text-end">Rp 14.500.000</td>
+              </tr>
+            </tbody>
+          </table>
+        
+          <div class="row justify-content-end">
+            <div class="col-md-6">
+              <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <td><strong>PPh 23 (2.5%)</strong></td>
+                    <td class="text-end">Rp 362.500,00</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Biaya Pelatihan</strong></td>
+                    <td class="text-end">Rp 14.137.500,00</td>
+                  </tr>
+                  <tr class="border-top">
+                    <td><strong>Total</strong></td>
+                    <td class="text-end"><strong>Rp 14.500.000,00</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        
+          <div class="mt-4">
+            <h6><strong>Payment Details:</strong></h6>
+            <p>
+              Account No: 2060679609 (BCA)<br>
+              Account Name: Aji Hogantara
+            </p>
+          </div>
+        </div>
+      
+        <div class="mt-2 d-flex justify-content-between">
+          <div>
+            <div class="signature"><img src="/assets/images/ttd_s.png" alt="" height="80px"></div>
+            <small class="text-center" style="max-width: 200px;">Please kindly be informed once you have arranged the payment.</small>
+          </div>
+          <div class="text-end">
+            <p><strong>Blancpastry</strong><br>
+              +628999 - 183 - 043</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+  <footer class="bg-primary" id="contact-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="text-center h2 fw-bold text-white mb-5">Contact Us</div>
+          <div class="text-center">
+            <img src="/assets/images/logo-c.png" alt="logo" height="80" width="auto">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="text-center h4 fw-bold mb-5 text-white">Workshop</div>
+
+          <div class="text-center p mb-5 text-white">Puri Tirta Kencana G4<br />
+            Jl. A. Yani No.730, Cicaheum, Kec. Kiaracondong, <br />
+            Kota Bandung, Jawa Barat 40282<br />
+            0899-9183-043<br />
+            blancpastry.bakingstudio@gmail.com</div>
+        </div>
+        <div class="col-md-4">
+          <div class="text-center h4 fw-bold mb-5 text-white">Social Media</div>
+
+          <div class="d-flex justify-content-center mb-4">
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-2 bg-black">
+      <p class="text-center" style="color: #bebcbc; font-size: 0.9em;">© 2025 Blanc Pastry Baking Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+ 
+    AOS.init();
+    
+
+  </script>
+</body>
+
+</html>
